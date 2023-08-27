@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Live Language Translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Live Language Translator</h1>
+      <br>
+      <br>
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Enter your text here"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translated Text"></textarea>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <select></select>
+          </li>
+          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <li class="row to">
+            <select></select>
+          </li>
+        </ul>
+      </div>
+      <button>Translate</button>
+    </div>
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
